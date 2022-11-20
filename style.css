@@ -184,7 +184,7 @@ li {
       rgba(0, 0, 0, 0.5)
     ),
     url("./img/bg-home.jpeg");
-  height: 87vh;
+  padding-bottom: 50px;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -461,6 +461,7 @@ footer span {
 @media (max-width: 750px) {
   .Home .container h1 {
     text-align: center;
+    padding-top: 160px;
   }
   .Home .container p {
     width: 350px;
