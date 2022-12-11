@@ -82,10 +82,11 @@ li {
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
   color: rgba(240, 248, 255, 0.021);
-  font-size: 13rem;
+  font-size: 5rem;
   letter-spacing: 50px;
   z-index: -1;
   transition: 0.3s ease letter-spacing;
+  text-align: center;
 }
 #header .nav-list ul li:hover a::after {
   transform: translate(-50%, -50%) scale(1);
@@ -187,6 +188,7 @@ li {
   padding-bottom: 50px;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 250px;
 }
 .Home .container {
   color: white;
@@ -250,7 +252,7 @@ li {
   content: "";
   width: 12px;
   height: 12px;
-  background-color: var(--main-color);
+  background-color: #2196f3;
   position: absolute;
   border-radius: 50%;
   top: 50%;
@@ -274,6 +276,7 @@ li {
   color: white;
   border: 2px solid white;
   transition-delay: 0.5s;
+  background-color: #2192ff;
 }
 .section {
   width: 500px;
@@ -501,5 +504,31 @@ footer span {
   }
   footer a img {
     margin-right: 0;
+  }
+}
+@keyframes left-move {
+  50% {
+    left: 0;
+    width: 12px;
+    height: 12px;
+  }
+  100% {
+    left: 0;
+    border-radius: 0;
+    width: 50%;
+    height: 100%;
+  }
+}
+@keyframes right-move {
+  50% {
+    right: 0;
+    width: 12px;
+    height: 12px;
+  }
+  100% {
+    right: 0;
+    border-radius: 0;
+    width: 50%;
+    height: 100%;
   }
 }
