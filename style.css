@@ -27,6 +27,7 @@ li {
   top: 0;
   width: 100vw;
   height: auto;
+  text-align: center;
 }
 #header .header {
   min-height: 8vh;
@@ -189,6 +190,7 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 250px;
+  overflow: hidden;
 }
 .Home .container {
   color: white;
@@ -339,6 +341,7 @@ li {
 .video-img-mab {
   padding-bottom: 30px;
   padding-top: 50px;
+  overflow: hidden;
 }
 .section-img {
   margin-left: 20px;
